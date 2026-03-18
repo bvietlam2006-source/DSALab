@@ -13,7 +13,6 @@ using namespace std;
 //  HAM TIEN ICH
 // ============================================================
 void HoanVi(int &a, int &b) { int t = a; a = b; b = t; }
-
 void XuatMang(const int a[], int n, const string &ten = "") {
     if (!ten.empty()) cout << "  " << ten << ": ";
     cout << "[ ";
@@ -158,7 +157,6 @@ void DemoTimKiem() {
     if (vt == -1) cout << "Khong tim thay\n";
     else cout << "Tim thay tai vi tri " << vt << "\n";
 }
-
 // ============================================================
 //  DEMO SAP XEP
 // ============================================================
